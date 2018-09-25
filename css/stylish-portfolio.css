@@ -17,19 +17,50 @@ h4 {
   font-size: 1.7em;
 }
 
+h5 {
+  font-weight: 300;
+  font-style: italic;
+  background-color: #1D809F;
+  color: white;
+  border-width:1.5px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  padding: 2px 15px 2px 15px;
+  font-size: 0.9em;
+  display: inline;
+}
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
 
-#profile-pic{
-  height: 400px;
+#headerRow {
+  height: 100%;
+}
+
+#about {
+  max-height: 300px;
+}
+
+.profile-pic{
+  height: 60vh;
   background-image: url("../img/profile3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.container {
+  height: 60%;
+  top: 20%;
+}
+
+@media only screen and (max-width: 575px) {
+    .container {
+        top: 5%;
+    }
+}
 
 p {
   line-height: 1.5em;
@@ -38,10 +69,16 @@ p {
 }
 
 .landingpage {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  display: block;
+}
+
+.landingpage .container {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+#space {
+  height: 3em;
 }
 
 .landingcontent {
@@ -70,13 +107,8 @@ p {
 }
 
 #intro {
-  font-size: 1.7rem;
+  font-size: 25px;
   font-weight: 100;
-}
-
-.content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
 }
 
 li {
@@ -88,23 +120,36 @@ li {
   line-height: 1.8em;
 }
 
+.content-section {
+  margin-top: 0%;
+}
+
+@media only screen and (max-width: 572px) {
+  .landingpage {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1124px) {
+  #intro {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #intro {
+    font-size: 15px;
+  }
+}
+
 .title {
-  text-align: right;
+  text-align: left;
 }
 
 @media only screen and (max-width: 1000px) {
     .title {
       text-align: left;
     }
-
-    #featured h4 {
-      margin-top: 1.5em;
-    }
-
-    h2 {
-      margin-bottom: 2em;
-    }
-
 }
 
 
@@ -142,9 +187,6 @@ li {
   margin: 0;
   padding: 0;
 }
-
-
-
 
 footer.footer {
   padding-top: 5rem;
