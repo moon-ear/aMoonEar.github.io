@@ -9,12 +9,12 @@ body {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 h4 {
   font-weight: 300;
-  font-size: 1.7em;
+  font-size: 1.7rem;
 }
 
 h5 {
@@ -27,7 +27,7 @@ h5 {
   -moz-border-radius: 25px;
   border-radius: 25px;
   padding: 2px 15px 2px 15px;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   display: inline;
 }
 
@@ -64,7 +64,7 @@ h5 {
 
 p {
   line-height: 1.5em;
-  font-size: 1em;
+  font-size: 1rem;
 
 }
 
@@ -78,7 +78,7 @@ p {
 }
 
 #space {
-  height: 3em;
+  height: 3rem;
 }
 
 .landingcontent {
@@ -103,11 +103,12 @@ p {
 
 .lp h1 {
   font-weight: 100;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 #intro {
-  font-size: 25px;
+  font-size: 1.8rem;
+  line-height: 3rem;
   font-weight: 100;
 }
 
@@ -117,7 +118,7 @@ li {
 
 .content-section p {
   font-weight: 100;
-  line-height: 1.8em;
+  line-height: 1.8rem;
 }
 
 .content-section {
