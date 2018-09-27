@@ -97,6 +97,7 @@ a:hover, a:focus, a:active {
 @media only screen and (max-width: 992px) {
   .landingpage h3 {
     font-size: 3vh;
+    line-height: 2rem;
   }
 }
 
@@ -120,7 +121,9 @@ a:hover, a:focus, a:active {
 }
 
 #dodgebox h2 {
+  color: #009e87;
   font-weight: 600;
+  font-size: 5vh;
 }
 
 .showcasePicture {
