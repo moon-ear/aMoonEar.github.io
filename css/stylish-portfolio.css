@@ -1,3 +1,4 @@
+
 body,
 html {
   width: 100%;
@@ -7,9 +8,42 @@ html {
 body {
   font-family: 'Source Sans Pro';
 }
+.padding0 {
+  padding: 0;
+}
+
+.halfPortfolioBox {
+  width: 99%;
+}
+
+#dodgebox {
+  color: #696940;
+}
+
+#dodgebox h5 {
+  background-color: #b2b36f;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.showcaseHeight {
+  height: 100%;
+}
+
+.showcasePicture {
+  height: 40vh;
+  width: 100%;
+  background-image: url("../img/dodgebox_showcase.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 h2 {
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 h4 {
@@ -17,16 +51,18 @@ h4 {
   font-size: 1.7rem;
 }
 
+.negative-margin-top {
+  margin-top: -0.6em;
+}
+
 h5 {
   font-weight: 300;
-  font-style: italic;
-  background-color: #1D809F;
   color: white;
   border-width:1.5px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  padding: 2px 15px 2px 15px;
+  padding: 0.2em 0.6em 0.2em 0.6em;
   font-size: 0.9rem;
   display: inline;
 }
@@ -35,12 +71,17 @@ h5 {
   padding: 1.25rem 2.5rem;
 }
 
+
 #headerRow {
   height: 100%;
 }
 
-#about {
-  max-height: 300px;
+.gray {
+  background-color: #f8f8f8;
+}
+
+.dark-gray {
+  background-color: #000000;
 }
 
 .profile-pic{
@@ -51,21 +92,11 @@ h5 {
   background-position: center;
 }
 
-.container {
-  height: 60%;
-  top: 20%;
-}
-
-@media only screen and (max-width: 575px) {
-    .container {
-        top: 5%;
-    }
-}
 
 p {
   line-height: 1.5em;
-  font-size: 1rem;
-
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
 .landingpage {
@@ -77,9 +108,20 @@ p {
   margin-bottom: 20vh;
 }
 
-#space {
-  height: 3rem;
+@media only screen and (max-width: 575px) {
+    .landingpage .container {
+        margin-top: 10vh;
+    }
 }
+
+
+@media only screen and (max-width: 992px) {
+    .halfPortfolioBox {
+      width: 100%;
+      float: none;
+    }
+}
+
 
 .landingcontent {
   width: 100%;
@@ -111,48 +153,6 @@ p {
   line-height: 3rem;
   font-weight: 100;
 }
-
-li {
-  margin: 3% 0%;
-}
-
-.content-section p {
-  font-weight: 100;
-  line-height: 1.8rem;
-}
-
-.content-section {
-  margin-top: 0%;
-}
-
-@media only screen and (max-width: 572px) {
-  .landingpage {
-    margin-bottom: 0px;
-  }
-}
-
-@media only screen and (max-width: 1124px) {
-  #intro {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  #intro {
-    font-size: 15px;
-  }
-}
-
-.title {
-  text-align: left;
-}
-
-@media only screen and (max-width: 1000px) {
-    .title {
-      text-align: left;
-    }
-}
-
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -190,8 +190,8 @@ li {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 footer.footer .social-link {
