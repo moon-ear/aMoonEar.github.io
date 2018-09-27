@@ -52,6 +52,22 @@ a:hover, a:focus, a:active {
   height: 100%;
 }
 
+.width100 {
+  width: 100%;
+}
+
+.weight300 {
+  font-weight: 300;
+}
+
+.weight400 {
+  font-weight: 400;
+}
+
+.weight600 {
+  font-weight: 600;
+}
+
 .negative-margin-top {
   margin-top: -0.6em;
 }
@@ -102,7 +118,7 @@ a:hover, a:focus, a:active {
 }
 
 .halfPortfolioBox {
-  width: 99%;
+  width: 98%;
 }
 
 @media only screen and (max-width: 992px) {
@@ -122,14 +138,28 @@ a:hover, a:focus, a:active {
 
 #dodgebox h2 {
   color: #009e87;
-  font-weight: 600;
   font-size: 5vh;
+}
+
+#dodgebox_picture {
+  background-image: url("../img/dodgebox_showcase.jpg");
+}
+
+#sesa {
+  color: white;
+  background-color: #131218;
+}
+
+#sesa h2 {
+  font-size: 4vh;
+}
+
+#sesa p {
+  font-size: 1rem;
 }
 
 .showcasePicture {
   height: 40vh;
-  width: 100%;
-  background-image: url("../img/dodgebox_showcase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
