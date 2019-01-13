@@ -14,26 +14,18 @@ p {
   font-weight: 100;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
-h4 {
-  font-weight: 300;
-  font-size: 1.7rem;
-}
-
-h5 {
-  font-weight: 300;
-  color: white;
-  border-width: 1.5px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
-  padding: 0.2em 0.6em 0.2em 0.6em;
-  font-size: 0.9rem;
-  display: inline;
+h3{
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 a {
@@ -42,6 +34,14 @@ a {
 
 a:hover, a:focus, a:active {
   color: #155d74;
+}
+
+.showcase h2 a, a:hover, a:focus, a:active {
+  color: white;
+}
+
+.white-text {
+  color: white;
 }
 
 .padding0 {
@@ -55,6 +55,19 @@ a:hover, a:focus, a:active {
 .width100 {
   width: 100%;
 }
+
+.width95 {
+  width: 95%;
+}
+
+.width98 {
+  width: 98%;
+}
+
+.width99 {
+  width: 100%;
+}
+
 
 .weight300 {
   font-weight: 300;
@@ -76,12 +89,26 @@ a:hover, a:focus, a:active {
   background-color: #f8f8f8;
 }
 
-.dark-gray {
-  background-color: #000000;
+.custom-black {
+  background-color: #0F0F0F;
 }
 
 .landingpage {
-  display: block;
+  background-color: #0F0F0F;
+  height: 100vh;
+  width: 100%;
+}
+
+.landingpage .container {
+  display: relative;
+}
+
+.center {
+  transform: translate(-50%, -50%);
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;top: 50%;
 }
 
 #profile-pic {
@@ -92,34 +119,28 @@ a:hover, a:focus, a:active {
   background-position: center;
 }
 
-.landingpage .container {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
-}
-
-@media only screen and (max-width: 575px) {
-  .landingpage .container {
-    margin-top: 10vh;
-    margin-bottom: 0vh;
-  }
-}
 
 .landingpage h3 {
-  font-size: 4vh;
-  line-height: 3rem;
+  font-size: 3vh;
+  line-height: 2.4rem;
   font-weight: 100;
 }
 
 @media only screen and (max-width: 992px) {
   .landingpage h3 {
     font-size: 3vh;
-    line-height: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .landingpage .container {
+    margin-top: 35vh;
+  }
+
+  .landingpage {
+    height: 155vh;
   }
 }
 
-.halfPortfolioBox {
-  width: 98%;
-}
 
 @media only screen and (max-width: 992px) {
   .halfPortfolioBox {
@@ -128,26 +149,33 @@ a:hover, a:focus, a:active {
   }
 }
 
-#dodgebox {
-  color: #696940;
+.picHeight {
+  height: 50vh;
 }
 
-#dodgebox h5 {
-  background-color: #b2b36f;
-}
-
-#dodgebox h2 {
-  color: #009e87;
-  font-size: 5vh;
+#dodgebox_background {
+  background-color: #ffff9b;
 }
 
 #dodgebox_picture {
   background-image: url("../img/dodgebox_showcase.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-#sesa {
-  color: white;
-  background-color: #131218;
+#sesa_background {
+  background-color: black;
+}
+
+#sesa_text {
+  color: white
+}
+
+#sesa_picture {
+  background-image: url("../img/sesa_showcase.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-size: cover;
 }
 
 #sesa h2 {
@@ -158,34 +186,22 @@ a:hover, a:focus, a:active {
   font-size: 1rem;
 }
 
-.showcasePicture {
-  height: 40vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.footer-height {
+  height: 60vh;
 }
 
-footer.footer {
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
+.black {
+  background-color: black;
 }
 
-footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+.red {
+  background-color: red;
 }
 
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
+.col-centered {
+  float: none;
+  margin: 0 auto;
 }
-
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;
@@ -227,19 +243,6 @@ footer.footer .social-link:hover {
 
 .text-secondary {
   color: #ecb807 !important;
-}
-
-.scroll-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  display: none;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: white;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 45px;
 }
 
 .scroll-to-top:focus, .scroll-to-top:hover {

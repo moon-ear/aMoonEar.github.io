@@ -26,6 +26,7 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "bootstrap": "4.1.1",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",

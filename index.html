@@ -29,7 +29,6 @@
   <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
   <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-
   <title>Munir Aljawahari</title>
 
   <!-- Bootstrap Core CSS -->
@@ -42,6 +41,8 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 </head>
 
@@ -49,15 +50,17 @@
 
   <!-- Header -->
   <header class="landingpage">
-    <div class="container col-sm-9">
-      <div class="row height100">
-        <div class="col-lg-6 text-left">
-          <div class="col-sm-12 mt-2">
-            <h1>Hello!</h1>
+    <div class="center container col-lg-9">
+      <div class="row" data-aos="fade">
+        <div class="white-text col-lg-6 text-left">
+          <div class="col-sm-12">
+            <h1>Hello!👋</h1>
           </div>
-          <div class="col-lg-12 my-5">
+          <div class="col-lg-10 mt-5 pb-5">
             <h3 id="intro">
-              I'm <strong>Munir Aljawahari</strong>, a Mechanical Engineering and Computing Technology Student at the <strong><a href="https://www.uottawa.ca/en">University of Ottawa</a></strong>
+              I'm <strong><em>Munir Aljawahari</strong></em>, a programmer/designer/mechanical engineering student at the <em>University of Ottawa</em>🏛️
+              <br><br>
+              <em>Scroll down to learn more </em>👇
             </h3>
           </div>
         </div>
@@ -67,156 +70,84 @@
   </header>
 
   <!-- About -->
-  <section class="py-5 gray">
-    <div class="container py-5 col-sm-9 text-left">
-      <div class="row">
-        <div class="col-lg-2 text-left">
-          <h2>BACKGROUND</h2>
-        </div>
-        <div class="col-lg-9 offset-lg-1">
-          <p> I'm currently completing my second year of university. I enjoy doing work that involves creative design and engineering. My goal is to build real world applications and tools that perform efficiently while looking crisp. Other than my
-            engineering goals, I like to workout, take pictures, and crossing off things off my bucket list with my friends.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis aliquet velit, in vehicula orci.
-            Fusce et hendrerit velit. Cras id tellus urna. Nullam vitae nibh libero. Aliquam viverra lectus vitae diam luctus, gravida scelerisque lectus congue.
-            Sed quis cursus odio. Fusce sollicitudin dignissim malesuada. Nulla dapibus, arcu feugiat laoreet tristique, sapien mi ultricies erat, sit amet varius enim ante sit amet mauris.
-            Etiam quis congue augue.</p>
-        </div>
-      </div>
+  <section class="py-5 custom-black">
+    <div class="container py-5 col-sm-8 white-text text-left" data-aos="fade">
+      <h2 class="py-3">About me 👨‍🔧</h2>
+      <p>I'm currently performing UI/UX research through the Undergraduate Research Opportunity Program through uOttawa and seeking an internship for next summer💼</p>
+      <p> You can find all my code on my <a target="_blank" href="https://github.com/aMoonEar" ><strong>Github</strong>⚙️</a>, my work experience on my <a href="resume.pdf"><strong>Resume</strong>📝</a> and <a href="https://www.linkedin.com/in/munir-aljawahari/" target="_blank"><strong>LinkedIn</strong>🤝</a>,
+         and can contact me through my <a href="mailto:munir.aljaw@gmail.com"><strong>
+            Email </strong>📧</a></p>
+      <p class="pt-5">Below is a collection of my favourite work that I have done so far📦</p>
     </div>
   </section>
 
   <!--Projects -->
-  <section class="py-5 gray">
-    <div class="container col-sm-9 text-left">
+<section class="showcase">
+
+  <div class="fluid-container pb-5 showcaseHeight custom-black">
+
+    <div class="container col-lg-8" data-aos="fade">
+
       <div class="row">
-
-        <div class="col-lg-2 text-left">
-          <h2>FEATURED PROJECTS</h2>
-        </div>
-
-        <div class="col-lg-9 offset-lg-1 text-center">
-          <div class="row" id="dodgebox">
-            <div class="container-fluid col-lg-12 showcaseHeight" style="background-color: #fffea1">
-              <div class="row">
-                <div class="container-fluid col-lg-12 pt-4">
-                  <h2 class="weight600">DODGEBOX</h2>
-                  <p class="px-5 weight400" style="margin-top: -0.2em">A minimalist and simple, yet addictive mobile game built with <em>libGDX</em> and <em>Java</em>.</p>
-                  <p class="weight300" style="margin-top: -0.6em"><a href="#"><strong>Google Playstore &nbsp></strong></a> &nbsp &nbsp &nbsp &nbsp <strong><a href="#">Github &nbsp></a></strong></p>
-                  <!--
-                    <ul class="list-unstyled list-inline negative-margin-top">
-                      <li class="list-inline-item"><h5>Java</h5></li>
-                      <li class="list-inline-item"><h5>Android</h5></li>
-                      <li class="list-inline-item"><h5>libGDX</h5></li>
-                    </ul>
-                  -->
-                </div>
-              </div>
-              <div class="row">
-                <div class="container-fluid col-lg-12 my-4 width100 showcasePicture" id="dodgebox_picture">
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="container col-lg-6 showcaseHeight padding0 mt-2" id="sesa">
-              <div class="row">
-                <div class="float-left halfPortfolioBox height100">
-                  <div class="pt-4">
-                    <h2 class="weight600">SESA Brand</h2>
-                    <p class="px-5 weight300">Designed and established a new brand look for the Software Engineering Student Association of uOttawa.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="container-fluid col-lg-12 showcasePicture" style="width: 4%">
-                </div>
-              </div>
-
-            </div>
-
-            <div class="container col-lg-6 showcaseHeight padding0 mt-2">
-              <div class="float-right halfPortfolioBox height100" style="background-color: lightgray">
-                <div class="pt-4">
-                  <h2>Minesweeper</h2>
-                  <p>A mobile game safsakjf d df sdfdasdadsdasdassdasdasdas</p>
-                  <ul class="list-unstyled list-inline negative-margin-top">
-                    <li class="list-inline-item">
-                      <h5>Java</h5>
-                    </li>
-                    <li class="list-inline-item">
-                      <h5>Android</h5>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        <h2 class="pb-4 col-lg-12 white-text text-right"><a href="https://play.google.com/store/apps/details?id=com.mygdx.aljawahari" target="_blank">DodgeBox🕹️</a></h2>
       </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-
       <div class="row">
-        <div class="col-lg-3">
-          <p>Developed by Munir Aljawahari</p>
+          <a href="https://play.google.com/store/apps/details?id=com.mygdx.aljawahari" target="_blank" class="col-lg-8 picHeight" id="dodgebox_picture">
+          </a>
+        <div class="col-lg-3 offset-lg-1 text-right white-text">
+          <p>A simple yet addictive mobile game built with <em>libGDX</em> and <em>Java</em>.</p>
+          <p>You can check it out on <a href="https://play.google.com/store/apps/details?id=com.mygdx.aljawahari" target="_blank"><strong>Google PlayStore</strong></a> and <a href="https://github.com/aMoonEar/DodgeBoxes" target="_blank"><strong>Github</strong></a></p>
         </div>
-        <div class="col-lg-6 offset-lg-3">
-          <div class="row">
 
-            <div class="col-sm-3">
-              <a href="mailto:munir.aljaw@gmail.com">
-                <span class="text-footer">
-                  <p>EMAIL</p>
-                </span>
-              </a>
-            </div>
-
-            <div class="col-sm-3">
-              <a href="Munir Aljawahari Resume Redesign.pdf" download>
-                <span class="text-footer">
-                  <p>RESUME</p>
-                </span>
-              </a>
-            </div>
-
-            <div class="col-sm-3">
-              <a href="https://github.com/aMoonEar" target="_blank">
-                <span class="text-footer">
-                  <p>GITHUB</p>
-                </span>
-              </a>
-            </div>
-
-            <div class="col-sm-3">
-              <a href="https://www.linkedin.com/in/munir-aljawahari-7ab2b2153/" target="_blank">
-                <span class="text-footer">
-                  <p>LINKEDIN</p>
-                </span>
-              </a>
-            </div>
-
-          </div>
-
-        </div>
       </div>
     </div>
 
-    </div>
-  </footer>
+  </div>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fa fa-angle-up"></i>
-  </a>
+  <div class="fluid-container py-5 showcaseHeight custom-black">
+
+    <div class="container pt-5 col-lg-8" data-aos="fade">
+
+      <div class="row">
+        <h2 class="pb-4 col-lg-12 white-text text-left"><a href="https://www.behance.net/gallery/74187939/Software-Engineering-Student-Association-Redesign" target="_blank">Software Engineering Student Association Redesign✏️</a></h2>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-3 text-left white-text">
+          <p>After several years of using the original logo, I decided it was time to redesign the brand of the association.</p>
+          <p>I wrote a <a href="https://www.behance.net/gallery/74187939/Software-Engineering-Student-Association-Redesign" target="_blank"><strong>Behance article</strong></a> about my journey behind creating the logo.</p>
+        </div>
+        <a href="https://www.behance.net/gallery/74187939/Software-Engineering-Student-Association-Redesign" target="_blank" class="col-lg-8 offset-lg-1 picHeight" id="sesa_picture">
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <div class="fluid-container footer-height pt-5 custom-black">
+    <div class="container pt-5 col-lg-8 text-center white-text" data-aos="fade">
+      <div class="row">
+        <div class="col-lg-12 ">
+          <h2>Let's get in touch!💕</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 pt-2 col-centered">
+          <p>Whether it's an internship offer, or a simple hello, my inbox is always open!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="pt-5"><a href="mailto:munir.aljaw@gmail.com">Say Hello</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -227,7 +158,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
-
 </html>
